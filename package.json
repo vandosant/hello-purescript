@@ -6,6 +6,7 @@
   "scripts": {
     "test": "pulp test",
     "build": "pulp build",
+    "run": "pulp run",
     "dev": "pscid --test --port 1701",
     "build:babel": "babel src -s -d lib"
   },
