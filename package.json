@@ -1,0 +1,31 @@
+{
+  "name": "hello-purescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pulp test",
+    "build": "pulp build",
+    "dev": "pscid --test --port 1701",
+    "build:babel": "babel src -s -d lib"
+  },
+  "postinstall": "bower install",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandosant/hello-purescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandosant/hello-purescript/issues"
+  },
+  "homepage": "https://github.com/vandosant/hello-purescript#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "bower": "^1.7.9",
+    "pscid": "^1.10.0",
+    "pulp": "^9.0.1",
+    "purescript": "^0.9.1",
+    "purescript-psa": "^0.3.9"
+  }
+}

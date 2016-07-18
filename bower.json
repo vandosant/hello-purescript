@@ -1,0 +1,20 @@
+{
+  "name": "hello-purescript",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "vandosant <sjskender@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/vandosant/hello-purescript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-test-unit": "^7.0.0"
+  }
+}
